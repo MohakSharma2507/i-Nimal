@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/captureimage">
+
+    <fragment
+        android:id="@+id/captureimage"
+        android:name="com.example.i_nimal.ui.uploadimage.UploadImageFragment"
+        android:label="@string/menu_captureimage"
+        tools:layout="@layout/fragment_uploadimage" />
+
+    <fragment
+        android:id="@+id/uploadimage"
+        android:name="com.example.i_nimal.ui.captureimage.CaptureImageFragment"
+        android:label="@string/menu_uploadimage"
+        tools:layout="@layout/fragment_captureimage" />
+
+    <fragment
+        android:id="@+id/recordvoice"
+        android:name="com.example.i_nimal.ui.recordvoice.RecordVoiceFragment"
+        android:label="@string/menu_recordvoice"
+        tools:layout="@layout/fragment_recordvoice" />
+</navigation>

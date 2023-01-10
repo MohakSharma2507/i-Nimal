@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Verifyotp"
+    android:background="@drawable/backgroundg"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_height="130dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/i_nimal"
+        android:id="@+id/logo"
+        />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/phonecall"
+        android:id="@+id/ph"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+       
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@color/white">
+            <EditText
+                android:id="@+id/getotp"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Enter Phone Number"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:drawablePadding="10dp"
+                android:background="@drawable/length"
+                />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btngetotp"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#FC2150"
+            android:text="GET OTP"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@color/white"
+            android:layout_marginTop="15dp">
+            <EditText
+                android:id="@+id/enterotp"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:drawablePadding="10dp"
+                android:background="@drawable/length"
+                android:hint="Enter OTP"
+                />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnverify"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#FC2150"
+            android:text="Verify OTP"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+</LinearLayout>

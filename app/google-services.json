@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "708028712866",
+    "project_id": "inimal-otp",
+    "storage_bucket": "inimal-otp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708028712866:android:96309701de0290352f14fb",
+        "android_client_info": {
+          "package_name": "com.example.i_nimal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708028712866-p47dugj0if52424c8dn57egtuhhn62p3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhxhJWNwt9mS04rieEcNpINIeLhzBke3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708028712866-p47dugj0if52424c8dn57egtuhhn62p3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

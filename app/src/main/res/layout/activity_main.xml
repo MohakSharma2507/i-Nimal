@@ -7,19 +7,19 @@
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".MainActivity"
-    android:background="@drawable/background">
+    android:background="@drawable/backgroundg">
 <!--    android:background="#F3F3F3">-->
 
     <ImageView
-        android:layout_height="wrap_content"
+        android:layout_height="130dp"
         android:layout_width="wrap_content"
         android:layout_gravity="center"
         android:src="@drawable/i_nimal"
         android:id="@+id/logo"
         />
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_gravity="center"
         android:src="@drawable/username"/>
     <LinearLayout
@@ -45,8 +45,13 @@
             android:background="@color/white">
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:hint="Enter Username"
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="10dp"
+            android:background="@drawable/length"
             />
         </LinearLayout>
 <!--        <TextView-->
@@ -64,7 +69,12 @@
             android:layout_marginTop="15dp">
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/padlock"
+            android:drawablePadding="10dp"
+            android:background="@drawable/length"
             android:hint="Password"
             android:password="true"
             />
@@ -72,13 +82,14 @@
         <TextView
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="      Recovery Password"
+            android:text="Recovery Password"
             android:textColor="@color/black"
             android:layout_marginLeft="80dp"
             android:gravity="center_horizontal"
             android:layout_marginTop="15dp"/>
 
         <Button
+            android:id="@+id/login"
             android:layout_width="wrap_content"
             android:layout_height="55dp"
             android:backgroundTint="#FC2150"
@@ -87,31 +98,25 @@
             android:layout_marginTop="10dp"
             android:textColor="@color/white"
             android:textStyle="bold"
+
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:text="--------Or continue with--------"
-            android:layout_marginTop="25dp" />
+            android:layout_margin="20dp" />
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="130dp"
-            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+
             >
 
-
-
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:background="@color/white">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#F3F3F3"
+                android:background="#50FFFFFF"
                 android:layout_margin="10px">
 
                 <ImageView
@@ -120,46 +125,35 @@
                     android:src="@drawable/search"
                     android:layout_margin="20px"/>
 
+
             </LinearLayout>
-            </LinearLayout>
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/white"
-                android:layout_margin="10dp">
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#F3F3F3"
+                android:background="#50FFFFFF"
                 android:layout_margin="10px">
             <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
            android:layout_margin="20px"
-            android:src="@drawable/apple_logo"
-            android:id="@+id/mac"/>
-            </LinearLayout>
-            </LinearLayout>
+            android:src="@drawable/phonecall"
+            android:id="@+id/phonecall"/>
 
+            </LinearLayout>
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@color/white"
-                android:layout_margin="10dp">
-
-                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="#F3F3F3"
+                    android:background="#50FFFFFF"
                     android:layout_margin="10px">
-        <ImageView
+            <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_margin="20px"
             android:src="@drawable/facebook"
             android:id="@+id/facebook"/>
-        </LinearLayout>
-        </LinearLayout>
+
+            </LinearLayout>
 
 </LinearLayout>
         <LinearLayout
